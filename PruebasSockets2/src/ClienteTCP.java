@@ -7,7 +7,7 @@ public class ClienteTCP
 	public static void main(String[] args)  throws IOException 
 	{
 	    Socket socketCliente = null;
-	    BufferedReader entradaSocket = null;
+	    BuferedReader entradaSocket = null;
 	    PrintWriter salidaSocket = null;
 
 
@@ -21,7 +21,7 @@ public class ClienteTCP
 	
 	    } catch (IOException e) 
 	    {
-		System.err.println("No puede establer canales de E/S para la conexión");
+		System.err.println("No puede establer canales de E/S para la conexiÃ³n");
 	        System.exit(-1);
 	    }
 	    Scanner teclado = new Scanner(System.in);
